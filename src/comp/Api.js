@@ -14,12 +14,6 @@ const Api = () => {
     }
   };
 
-
-
-
-
-
-
   useEffect(() => {
     getCovidData();
   }, []);
@@ -31,7 +25,7 @@ const Api = () => {
         <h1>covid-19 tracker app</h1>
 
         <ul>
-          <li className="card" style={{background:"green"}}>
+          <li className="card" style={{ background: "green" }}>
             <div className="card__main">
               <div className="card__inner">
                 <p className="card__name">
@@ -42,7 +36,18 @@ const Api = () => {
             </div>
           </li>
 
-          <li className="card" style={{background:"grey"}}>
+          <li className="card" style={{ background: "green" }}>
+            <div className="card__main">
+              <div className="card__inner">
+                <p className="card__name">
+                  <span>Our </span>Country
+                </p>
+                <p className="card__total">India</p>
+              </div>
+            </div>
+          </li>
+
+          <li className="card" style={{ background: "grey" }}>
             <div className="card__main">
               <div className="card__inner">
                 <p className="card__name">
@@ -53,7 +58,7 @@ const Api = () => {
             </div>
           </li>
 
-          <li className="card" style={{background:"gold"}}>
+          <li className="card" style={{ background: "gold" }}>
             <div className="card__main">
               <div className="card__inner">
                 <p className="card__name">
@@ -65,7 +70,7 @@ const Api = () => {
           </li>
         </ul>
         <ul>
-          <li className="card" style={{background:"olive"}}>
+          <li className="card" style={{ background: "olive" }}>
             <div className="card__main">
               <div className="card__inner">
                 <p className="card__name">
@@ -76,7 +81,7 @@ const Api = () => {
             </div>
           </li>
 
-          <li className="card" style={{background:"skyblue"}}>
+          <li className="card" style={{ background: "skyblue" }}>
             <div className="card__main">
               <div className="card__inner">
                 <p className="card__name">
@@ -87,7 +92,7 @@ const Api = () => {
             </div>
           </li>
 
-          <li className="card" style={{background:"lightgrey"}}>
+          <li className="card" style={{ background: "lightgrey" }}>
             <div className="card__main">
               <div className="card__inner">
                 <p className="card__name">
@@ -104,4 +109,3 @@ const Api = () => {
 };
 
 export default Api;
-
